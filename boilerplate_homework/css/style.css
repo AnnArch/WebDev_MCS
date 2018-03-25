@@ -1,7 +1,8 @@
 h1 {
+	/* не нравится, что в одну строчку */
 	color: white; background: black;
 }
-
+/* можно было выбрать класс sectionText и написать это один раз */
 #bio {
 	color: white; 
 	background: black;

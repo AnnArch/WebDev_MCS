@@ -1,30 +1,39 @@
+/* если сделать reset то как минимум пропадут белые отступы по краям, которые тут явно лишние */
+
 body{
+	/* клювое решение, но лучше задать для page. body — это слишком уж серьезный селектор*/
 	font-family: 'Playfair Display', serif;
 }
 .header-container {
+	/* ого, какой хитрый ход! мне понравилось!!!! */
 	border: 30px solid Coral;
 	border-left-width: 2px;
 	background-color: Coral;
 }
 .classimage-container{
+	/* он и так 100% зачем писать? */
 	width: 100%;
 	height: 461px;
 	background-image: url(../img/foto.jpg);
+	/* хорошо бы задать размер бэку какой-то, чтобы это не зависело от самой картинки */
 	background-position: center;
 	background-color: PapayaWhip;
 	background-repeat: no-repeat;
 }
 
 .menu{
+	/* отступ пропал ((( */
 border: 20px solid Coral;
 	border-left-width: 2px;
 	background-color: Coral;
 }
 .footer{
+	/* отступ пропал ((( */
 border: 20px solid Coral;
 	border-left-width: 2px;
 	background-color: Coral;
 }
+/* обычно такие генеральные стили пишут сверху, но это мелочи */
 h1, h2{
 	font-family: 'Lora', serif;
 }
