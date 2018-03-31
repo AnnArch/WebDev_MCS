@@ -1,0 +1,89 @@
+
+@import url(reset.css);
+
+.page{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4{
+	font-weight: bold;
+	font-family: 'Arimo', serif;
+	line-height: 30px;
+}
+
+p{
+	text-indent: 10px;
+	line-height: 20px;	
+}
+
+.header-container {
+	height: 300px;
+	width: 100%;
+	background-image: url(http://kto-chto-gde.ru/wp-content/uploads/2016/10/Fotolia_69891232_Subscription_Monthly_M.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 30%;
+	position: fixed;
+	top:0;
+    left:0;
+}	
+
+.head{
+	font-size: 50px;
+	line-height: 300px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.text-container{
+	margin-top:350px;
+	margin-left: 50px;
+}
+.shower{
+    border: 2px solid DarkCyan;
+	border-left-width: 2px;
+	box-sizing: border-box;
+	width: 400px;
+	height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	padding: 10px;
+}
+
+.scrub{
+    border: 2px solid DarkCyan;
+	border-left-width: 2px;
+	box-sizing: border-box;
+	width: 400px;
+	height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	padding: 10px;
+}
+
+.creme{
+    border: 2px solid DarkCyan;
+    box-sizing: border-box;
+	border-left-width: 2px;	
+	width: 400px;
+	height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	
+}
+
+.footer{
+
+	height: 50px;
+	width: 100%;
+	background-color: DarkCyan;
+	margin-top: 50px;
+}
+
+.copyright {
+	font-size: 20px;
+	line-height: 50px;
+}
