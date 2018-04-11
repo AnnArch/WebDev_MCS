@@ -1,0 +1,96 @@
+
+@import url(reset.css);
+
+.page{
+
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+.header-container{
+
+	width: 100%; 
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	background-color: #F6D7AE;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.head{
+
+	font-weight: bold;
+	font-size:30px;
+}
+
+.text-container{
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.column{
+	border: 2px solid #D59629;
+	width: calc((100% - 80px)/3);
+	margin-bottom: 50px;
+}
+
+.coco{
+    background-image: url(../img/chanel.jpg);
+    background-position: center;
+    background-size: cover; 
+    padding-bottom: 100%;
+    
+}
+
+.coco:hover{
+	opacity: 0.5;
+	transition-duration:3s;
+}
+
+.homer{
+
+	background-image: url(../img/homer.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+}
+
+.homer:hover{
+	transform: scale(1.2);
+	/*можно ли сделать так, чтобы картинка не выходила за края рамки?*/
+	transition-duration:3s;
+}
+.lermontov{
+	background-image: url(../img/lermontov.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100%;
+}
+
+.lermontov:hover{
+	background-image: url(../img/ler.jpg);
+	transition-duration:3s;
+}
+
+p{
+
+	padding: 15px;
+}
+
+.footer{
+	width: 100%;
+	padding: 10px;
+	background-color: #F6D7AE;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+}
+
+.copyright{
+	padding: 0;
+	font-weight: bold;
+}
