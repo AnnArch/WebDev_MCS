@@ -62,6 +62,7 @@
 .homer:hover{
 	transform: scale(1.2);
 	/*можно ли сделать так, чтобы картинка не выходила за края рамки?*/
+	/* показал в след. домашке*/
 	transition-duration:3s;
 }
 .lermontov{
