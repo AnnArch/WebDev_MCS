@@ -9,7 +9,7 @@
 
 .header-container{
 
-	width: 100%; 
+	width: 100%; /* он и так 100% */
 	display: flex;
 	flex-direction: row;
 	padding: 10px;
@@ -26,7 +26,7 @@
 
 
 .text-container{
-	width: 100%;
+	width: 100%; /* он и так 100% */
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -39,6 +39,8 @@
 	border: 2px solid #D59629;
 	width: 90%;
 	margin-bottom: 20px;
+	/*добавил оверфлоу чтобы гомер не перекрывал колонку он все равно налезает на текст, возможно нужно сделать еще один тег-обертку*/
+	overflow: hidden;
 }
 
 .coco{
@@ -97,21 +99,22 @@ p{
 }
 
 @media all and (min-width: 668px){
+	/*размечу отступы, как обычно пишут медиазапросы*/
 	.text-container{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	font-family: 'Alegreya Sans', sans-serif;
-	flex-direction: row;
-	align-items: stretch;
-}	
+		width: 100%; /* он и так 100% */
+		display: flex; /* он и так flex */
+		flex-wrap: wrap;/* зачем? */
+		justify-content: space-around; /*он уже space-around;*/
+		font-family: 'Alegreya Sans', sans-serif; /* он уже такого шрифта */
+		flex-direction: row;
+		align-items: stretch;
+	}	
 
 
-.column{
-	border: 2px solid #D59629;
-	width: calc((100% - 80px)/3);
-	margin-bottom: 50px;
-}
+	.column{
+		border: 2px solid #D59629; /* вроде эта граница уже есть */
+		width: calc((100% - 80px)/3);
+		margin-bottom: 50px;
+	}
 
 }
